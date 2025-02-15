@@ -56,7 +56,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%205.png?raw=true)
 
 4. **Create a Linux (Ubuntu) Virtual Machine**:
-   -Navigate to "Virtual Machines" and click "Create."
+   - Navigate to "Virtual Machines" and click "Create."
    - Select the same Resource Group and Virtual Network used for the Windows 10 VM.
    - Configure the Virtual Machine:
      - OS: Ubuntu Server 22.04
