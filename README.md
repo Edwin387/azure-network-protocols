@@ -128,7 +128,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ### Observe DHCP Traffic
 
-1. In Wirehshark, filter for DHCP traffic.
+1. In Wireshark, filter for DHCP traffic.
 2. From the Windows 10 VM, issue a new IP address:
    - Open Powershell as admin and run: `ipconfig /renew`.
 3. Observe the DHCP traffic in Wireshark.
