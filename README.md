@@ -119,7 +119,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. In Wireshark, start a new packet capture and filter for SSH traffic.
 2. From the Windows 10 VM, SSH into the Ubuntu VM:
-   - Command: `ssh <username@<Ubuntu VM Private IP>`.
+   - Command: `ssh <username>@<Ubuntu VM Private IP>`.
    - Enter the password when prompted.
 3. Type commands within the SSH session and observe the SSH traffic in Wireshark.
 4. Exit the SSH session: `exit`.
