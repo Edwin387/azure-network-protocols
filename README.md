@@ -86,13 +86,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Observe the ping requests and replies in Wireshark.
 6. From the Windows 10 VM, ping a public website (e.g., `www.google.com`) and observe the ICMP traffic in Wireshark. 
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%201.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%202.PNG?raw=true)
 
 ---
 
@@ -109,25 +105,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 6. Observe the ICMP traffic in Wireshark and the command line Ping activity (should resume).
 7. Stop the ping activity.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%203.PNG?raw=true)
 
-<p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%204.PNG?raw=true)
 
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%205.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%206.PNG?raw=true)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%207.PNG?raw=true)
 
 ### Observe SSH Traffic 
 
@@ -138,9 +124,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 3. Type commands within the SSH session and observe the SSH traffic in Wireshark.
 4. Exit the SSH session: `exit`.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%208.PNG?raw=true)
 
 ### Observe DHCP Traffic
 
@@ -149,9 +133,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Open Powershell as admin and run: `ipconfig /renew`.
 3. Observe the DHCP traffic in Wireshark.
 
-<p>
-     
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%209.PNG?raw=true)
 
 ### Observe DNS Traffic 
 
@@ -160,9 +142,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Example: `nslookup google.com`, `nslookup disney.com`.
 3. Observe the DNS traffic in Wireshark.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%2010.PNG?raw=true)
 
 ### Observe RDP Traffic 
 
@@ -170,8 +150,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Use the filter: `tcp.port == 3389`.
 2. Observe the continuous RDP traffic between the Windows 10 VM and your local machine. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/Capture%2011.PNG?raw=true)
 
 ---
