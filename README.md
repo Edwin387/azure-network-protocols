@@ -100,7 +100,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Command: `ping <Ubuntu VM Private IP> -t`.
 2. Open the Network Security Group associated with the Ubuntu VM.
 3. Disable inbound ICMP traffic in the Network Security Group.
-4. Observe the ICMP traffic in the Wireshark and the command line Ping activity (should stop).
+4. Observe the ICMP traffic in Wireshark and the command line Ping activity (should stop).
 5. Re-enable ICMP traffic in the Network Security Group.
 6. Observe the ICMP traffic in Wireshark and the command line Ping activity (should resume).
 7. Stop the ping activity.
