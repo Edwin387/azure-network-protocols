@@ -61,8 +61,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Configure the Virtual Machine:
      - OS: Ubuntu Server 22.04
       - Authentication: Username/Password.
-      - Ensure both VMs are in the same Virtual Network and Subnet as the Windows 10 VM.
-      - Complete the setup and deploy the VM.
+    - Ensure both VMs are in the same Virtual Network and Subnet as the Windows 10 VM.
+    - Complete the setup and deploy the VM.
 
 ![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%206.png?raw=true)
 
