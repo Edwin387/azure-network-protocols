@@ -32,13 +32,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 1. Log in to [Azure Portal](https://portal.azure.com/).
 2. **Create a Resource Group**:
-3. - Navigate to "Resources Groups" and click "Create."
+   - Navigate to "Resources Groups" and click "Create."
    - Provide a name for your Resource Group and select a region.
    - Click "Review + Create," then "Create."
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot1.png?raw=true)
 
 3. **Create a Windows 10 Virtual Machine**:
    - Navigate to "Virtual Machines" and click "Create."
@@ -49,21 +47,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       - Head to the Networking section, then create a new virtual network titled "Lab2-vnet"
       - Complete the setup and deploy the VM.
 
- <p>
-   
- </p>
+ ![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%202.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot3.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%204.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%205.png?raw=true)
 
 4. **Create a Linux (Ubuntu) Virtual Machine**:
    -Navigate to "Virtual Machines" and click "Create."
@@ -74,21 +64,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
       - Ensure both VMs are in the same Virtual Network and Subnet as the Windows 10 VM.
       - Complete the setup and deploy the VM.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%206.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%207.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%208.png?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/azure-network-protocols/blob/main/shot%209.png?raw=true)
 
 ---
 
